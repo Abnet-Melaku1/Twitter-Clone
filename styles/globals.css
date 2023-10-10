@@ -2,8 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 :root {
-  @apply h-full bg-black;
+  @apply h-full dark:bg-gray-800 bg-white;
 }
-body {
-  @apply h-full bg-black;
+@layer base {
+  body {
+    @apply dark:bg-gray-800 bg-white h-full;
+  }
 }
