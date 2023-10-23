@@ -19,7 +19,7 @@ const Input: React.FC<InputProps> = ({
       value={value}
       placeholder={placeholder}
       type={type}
-      className='w-full p-4 text-lg dark:bg-black bg-white border-2 dark:border-neutral-800 border-neutral-600 rounded-md outline-none text-white focus:border-sky-500 focus:border-2 transition dark:disabled:bg-neutral-900 disabled:bg-neutral-700  disabled:opacity-70 disabled:cursor-not-allowed'
+      className='w-full p-4 text-lg dark:bg-black bg-white border-2 dark:border-neutral-800 border-neutral-600 rounded-md outline-none dark:text-white text-neutral-700 focus:border-sky-500 focus:border-2 transition dark:disabled:bg-neutral-900 disabled:bg-neutral-700  disabled:opacity-70 disabled:cursor-not-allowed'
     />
   )
 }

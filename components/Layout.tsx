@@ -18,6 +18,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
           '>
             {children}
           </div>
+
           <FollowBar />
         </div>
       </div>
